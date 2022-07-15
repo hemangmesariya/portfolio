@@ -7,13 +7,13 @@ const Contact = () => {
       <div className="text-center pb-4">
         <h1 className="font-bold text-3xl">Contact</h1>
       </div>
-        <input type="text" className="p-3 focus:ring-6 ring-pink-300 ring-inset bg-gray-200" name="name" id="name" placeholder="Name" />
-        <input type="email" className="p-3 bg-gray-200" name="email" id="email" placeholder="Email" />
+        <input type="text" className="p-3 focus:outline-none bg-gray-200" name="name" id="name" placeholder="Name" />
+        <input type="email" className="p-3 bg-gray-200 focus:outline-none" name="email" id="email" placeholder="Email" />
         <textarea
           name="msg"
           id="msg"
           cols="30"
-          className="p-3 bg-gray-200"
+          className="p-3 bg-gray-200 focus:outline-none"
           placeholder="Message..."
           rows="10"
         ></textarea>
