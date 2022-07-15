@@ -10,7 +10,7 @@ const Work = () => {
       <div className="flex flex-col justify-around">
         <div className="grid grid-cols-2">
           <div className="text-center h-[300px] w-full  mx-auto hover:bg-slate-200">
-            work1
+            <img src="https://res.cloudinary.com/hemang/image/upload/f_auto/v1657885772/portfolio/project_movie_e1alux.webp" alt="" srcset="" />
           </div>
           <div className="text-center h-[300px] w-full  mx-auto hover:bg-slate-200">
             work2
